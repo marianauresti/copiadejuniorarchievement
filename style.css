@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+header ul li{
+    margin: 10px;
+}
+img{
+    width: 150px;
+}
+h1{
+    font-size: 34px;
+    color: #21A9AD ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    font-size: 20px;
+    color: black;
+}
+.presentacion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #21A9AD  ;
+}
+.presentacion h1{
+    font-size: 35px;
+    color: white;
+    margin-top: 15px;
+}
+.presentacion p{
+    width: 70%;
+    font-size: 30px;
+    padding: 10px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#nosotros {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#nosotros iframe{
+    padding: 10px;
+    margin: 10px;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: white;
+    margin: 10px 0 10px 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.caja img{
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.caja p{
+    font-size: 20px;
+    text-align: justify;
+}
